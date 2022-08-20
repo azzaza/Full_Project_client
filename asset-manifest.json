@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Full_Project_client/static/css/main.054ce61f.css",
+    "main.js": "/Full_Project_client/static/js/main.3e46e3f3.js",
+    "static/media/spiner.gif": "/Full_Project_client/static/media/spiner.42aaa181adb3af3bef08.gif",
+    "static/media/img_def.jpg": "/Full_Project_client/static/media/img_def.1287f47eabc81133b950.jpg",
+    "index.html": "/Full_Project_client/index.html",
+    "main.054ce61f.css.map": "/Full_Project_client/static/css/main.054ce61f.css.map",
+    "main.3e46e3f3.js.map": "/Full_Project_client/static/js/main.3e46e3f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.054ce61f.css",
+    "static/js/main.3e46e3f3.js"
+  ]
+}
