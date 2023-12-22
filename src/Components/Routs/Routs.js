@@ -17,8 +17,7 @@ import { connect } from "react-redux";
 
 return <Routes>
 
-   {!props.isUser 
-   ?<>
+   
    <Route  path='/home' element={<Home_Container/> }  >
        <Route path=":id"></Route>
     </Route>
@@ -28,16 +27,7 @@ return <Routes>
     </Route>
     <Route path="/settings" element={<Settings_container/>}/>
     <Route path="*" element={<Navigate  to={"/home/"+ props?.user?.page_name} replace />} />
-   </> 
-   : <>
-   <Route path='/register' element={<Registration />}  />
-   <Route path='/log-in' element={<Log_in />} />
-   <Route path="/users" element={<Users_container/>}/>
-   <Route path="*" element={<Navigate to="/log-in" replace />} />
-   
-   </>
-
-   }
+  
 </Routes>
 
 }
