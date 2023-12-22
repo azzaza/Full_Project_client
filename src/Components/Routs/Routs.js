@@ -17,7 +17,7 @@ import { connect } from "react-redux";
 
 return <Routes>
 
-   {props.isUser 
+   {!props.isUser 
    ?<>
    <Route  path='/home' element={<Home_Container/> }  >
        <Route path=":id"></Route>
